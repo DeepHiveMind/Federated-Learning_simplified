@@ -60,7 +60,7 @@ Here are several new available FL resources:
 - [Tensorflow Federated Tutorials](https://federated.withgoogle.com/)
 
 ## Federated Learning Framework
-Flower (flwr) is a framework for building federated learning systems.Please see [Flower_Framework.md] (Flower_Framework.md) to get started!
+Flower (flwr) is a framework for building federated learning systems.Please see [Flower_Framework.md](Flower_Framework.md) to get started!
 
 ## Conclusion
 
