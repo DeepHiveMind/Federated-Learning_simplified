@@ -23,7 +23,9 @@ Traditional machine learning involves a data pipeline that uses a central server
 ```Federated learning (FL) in contrast, is an approach that downloads the current model and computes an updated model at the device itself (ala edge computing) using local data. These locally trained models are then sent from the devices back to the central server where they are aggregated, i.e. averaging weights, and then a single consolidated and improved global model is sent back to the devices.```
 
 ![alt text](https://github.com//DeepHiveMind/Federated-Learning/blob/main/example.png?raw=true)
-*Your phone personalizes the model locally, based on your usage (A). Many users’ updates are aggregated (B) to form a consensus change © to the shared model, after which the procedure is repeated.*
+
+*Your phone personalizes the model locally, based on your usage (A). Many users’ updates are aggregated (B) to form a consensus change © to the shared model, after which the procedure is repeated.
+Source: [https://ai.googleblog.com/2017/04/federated-learning-collaborative.html](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)*
 
 In a more general sense, FL allows for machine learning algorithms to gain experience from a broad range of data sets located at different locations. The approach enables multiple organizations to collaborate on the development of models, but without needing to directly share secure data with each other. Over the course of several training iterations, the shared models get exposed to a significantly wider range of data than what any single organization possesses in-house. In other words, FL decentralizes machine learning by removing the need to pool data into a single location. Instead, the model is trained in multiple iterations at different locations.
 
