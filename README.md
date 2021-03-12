@@ -56,8 +56,8 @@ Additionally, a number of groups are working to review the unique characteristic
 There is also a paper that describes a scalable production system for FL for mobile devices, “Towards Federated Learning at Scale: System Design” (Mar. 2019) which includes the resulting high-level design, overview of new challenges with solutions, and also some open problems with future directions.
 
 Here are several new available FL resources:
-- [TensorFlow Federated (TFF)](https://www.tensorflow.org/federated) and also on GitHub
-- Tensorflow Federated Tutorials
+- [TensorFlow Federated (TFF)](https://www.tensorflow.org/federated) and also on [GitHub](https://github.com/tensorflow/federated)
+- [Tensorflow Federated Tutorials](https://federated.withgoogle.com/)
 
 ## Conclusion
 
