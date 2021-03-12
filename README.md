@@ -59,6 +59,9 @@ Here are several new available FL resources:
 - [TensorFlow Federated (TFF)](https://www.tensorflow.org/federated) and also on [GitHub](https://github.com/tensorflow/federated)
 - [Tensorflow Federated Tutorials](https://federated.withgoogle.com/)
 
+## Federated Learning Framework
+Flower (flwr) is a framework for building federated learning systems.Please see [Flower Framework.md](Flower Framework.md) to get started!
+
 ## Conclusion
 
 In this page, we’ve introduced a new setting for distributed machine learning (optimization problems), which is called federated learning. This setting is motivated by the methodology where users do not send the data they generate locally to central servers at all, but rather provide part of their computational power to be used to perform local machine learning training. This comes with a unique set of challenges however FL researchers are actively engaged with bringing this new technology forward. Still not convinced that FL holds much promise? Check out the [Google Manga description](https://federated.withgoogle.com/), it may get you off the fence!
