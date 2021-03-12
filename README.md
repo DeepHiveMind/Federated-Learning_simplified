@@ -56,7 +56,12 @@ Additionally, a number of groups are working to review the unique characteristic
 There is also a paper that describes a scalable production system for FL for mobile devices, “Towards Federated Learning at Scale: System Design” (Mar. 2019) which includes the resulting high-level design, overview of new challenges with solutions, and also some open problems with future directions.
 
 Here are several new available FL resources:
--TensorFlow Federated (TFF) and also on GitHub
--Tensorflow Federated Tutorials
+- TensorFlow Federated (TFF) and also on GitHub
+- Tensorflow Federated Tutorials
+
+## Conclusion
+
+In this page, we’ve introduced a new setting for distributed machine learning (optimization problems), which is called federated learning. This setting is motivated by the methodology where users do not send the data they generate locally to central servers at all, but rather provide part of their computational power to be used to perform local machine learning training. This comes with a unique set of challenges however FL researchers are actively engaged with bringing this new technology forward. Still not convinced that FL holds much promise? Check out the Google Manga description, it may get you off the fence!
+
 
 
