@@ -11,30 +11,31 @@ There are multiple notebooks showing:
 - Performance gains   
 
 # List of Notebooks
+** P.S.: Please refer to [DeepHiveMind/NVIDIA-CLARA-Train-examples](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples) for better insight.
 
 1. Getting Started 
-    1. [Getting Started](GettingStarted/GettingStarted.ipynb)
-    1. [Bring your own component BYOC](GettingStarted/BYOC.ipynb)
+    1. [Getting Started](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/GettingStarted/GettingStarted.ipynb)
+    1. [Bring your own component BYOC](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/GettingStarted/BYOC.ipynb)
 2. AI Assisted Annotation (AIAA):
-    1. [Basics](AIAA/AIAA.ipynb)
-    2. [Train Deepgrow (2D and 3D)](AIAA/DeepGrow.ipynb) <span style="color:red">(New in V4)</span>
-    3. [OHIF Integration](AIAA/AIAAwOHIF.ipynb) <span style="color:red">(New in V4)</span>
+    1. [Basics](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/AIAA/AIAA.ipynb)
+    2. [Train Deepgrow (2D and 3D)](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/AIAA/DeepGrow.ipynb) <span style="color:red">(New in V4)</span>
+    3. [OHIF Integration](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/AIAA/AIAAwOHIF.ipynb) <span style="color:red">(New in V4)</span>
 3. DataSets
-    1. [Download Decathlon Dataset](Data/DownloadDecathlonDataSet.ipynb) <span style="color:red">(New in V4)</span>
-    2. [Download from National Cancer Archive](Data/TCIA/TCIADownloader.ipynb) <span style="color:red">(New in V4)</span>
+    1. [Download Decathlon Dataset](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/Data/DownloadDecathlonDataSet.ipynb) <span style="color:red">(New in V4)</span>
+    2. [Download from National Cancer Archive](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/Data/TCIA/TCIADownloader.ipynb) <span style="color:red">(New in V4)</span>
 4. Federated Learning <br>
-    1. [Federated learning](FL/FederatedLearning.ipynb) 
-    2. [Provisioning Notebook](FL/Provisioning.ipynb) 
-    3. [Client Notebook](FL/Client.ipynb) 
-    4. [Administration of FL experiment](FL/Admin.ipynb) 
-    5. [Bring your own Component to FL](FL/Admin_BYOC.ipynb) 
-    6. [Homomorphic_Encryption](FL/Homomorphic_Encryption.ipynb) <span style="color:red">(New in V4)</span>
-    7. [Bring your own Trainer to FL](FL/FLBYOTrainer.ipynb) <span style="color:red">(New in V4)</span>
+    1. [Federated learning](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/FederatedLearning.ipynb) 
+    2. [Provisioning Notebook](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/Provisioning.ipynb) 
+    3. [Client Notebook](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/Client.ipynb) 
+    4. [Administration of FL experiment](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/Admin.ipynb) 
+    5. [Bring your own Component to FL](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/Admin_BYOC.ipynb) 
+    6. [Homomorphic_Encryption](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/Homomorphic_Encryption.ipynb) <span style="color:red">(New in V4)</span>
+    7. [Bring your own Trainer to FL](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/FL/FLBYOTrainer.ipynb) <span style="color:red">(New in V4)</span>
 5. AutoML
-    1. [AutoML Basics](AutoML/AutoML.ipynb)
-    2. [AutoML BYOC](AutoML/AutoML_BYOC.ipynb)
+    1. [AutoML Basics](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/AutoML/AutoML.ipynb)
+    2. [AutoML BYOC](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/AutoML/AutoML_BYOC.ipynb)
 6. Domain specific Examples:
-    1. [Digital pathology](DomainExamples/DigitalPathology/DP.ipynb) <span style="color:red">(New in V4)</span>
+    1. [Digital pathology](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/DomainExamples/DigitalPathology/DP.ipynb) <span style="color:red">(New in V4)</span>
 7. Integration (coming soon)
     1. Setup on AWS
     2. End to End workflow 
@@ -156,7 +157,7 @@ startDocker.sh
 ## 4. Open Browser with given token
 
 Now you can go to your browser on the port you specified above (default is 3030) with the token provided in the terminal. 
-You should see jupyter lab where you should start running the [Welcome Notebook](Welcome.ipynb). 
+You should see jupyter lab where you should start running the [Welcome Notebook](https://github.com/DeepHiveMind/NVIDIA-CLARA-Train-examples/blob/master/PyTorch/NoteBooks/Welcome.ipynb). 
 This page shows all notebooks available as 
 
 
