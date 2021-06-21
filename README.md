@@ -59,9 +59,13 @@ Additionally, a number of groups are working to review the unique characteristic
 
 There is also a paper that describes a scalable production system for FL for mobile devices, “Towards Federated Learning at Scale: System Design” (Mar. 2019) which includes the resulting high-level design, overview of new challenges with solutions, and also some open problems with future directions.
 
-Here are several new available FL resources:
+Here are several new available FL framework/libraries:
 - [TensorFlow Federated (TFF)](https://www.tensorflow.org/federated) and also on [GitHub](https://github.com/tensorflow/federated)
-- [Tensorflow Federated Tutorials](https://federated.withgoogle.com/)
+      - [Tensorflow Federated Tutorials](https://federated.withgoogle.com/)
+- [PySyft by openmined](https://www.openmined.org/) and also on [GitHub](https://github.com/OpenMined/PySyft)
+- [FLOWER](https://flower.dev/) and also on [GitHub](https://github.com/adap/flower)
+      - Framework-agnostic: Different machine learning frameworks have different strengths. Flower can be used with any machine learning framework, for example, PyTorch, TensorFlow, MXNet, or even raw NumPy for users who enjoy computing gradients by hand.
+- [NVFlare by NVIDIA](https://docs.nvidia.com/clara/clara-train-sdk/federated-learning/federated_learning.html) as an integral offering within "NVIDIA CLARA". It uses pyTorch.
 
 ## Federated Learning Framework
 Flower (flwr) is a framework for building federated learning systems.Please see [Flower_Framework.md](Flower_Framework.md) to get started!
